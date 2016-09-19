@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="15dp"
+    android:background="@drawable/b23">
+    
+    
+    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Reminders"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:textStyle="italic"/>
+		    
+			<View
+		    android:layout_width="match_parent"
+		    android:layout_height="2dp"
+		    android:background="@android:color/darker_gray"/>
+		
+	    <ListView
+	        android:id="@+id/listView"
+	        android:layout_margin="10dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent" /> 
+   
+    <ImageView
+             android:id="@+id/ibtnAddReminder"
+             android:layout_width="80dp"
+             android:layout_height="80dp"
+             android:src="@drawable/add"
+             android:fillViewport="true" 
+             android:layout_gravity="center" />
+    
+</LinearLayout>	

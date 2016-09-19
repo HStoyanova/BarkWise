@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/b23" >
+     
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="News feed"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:textStyle="italic"/>
+		    
+			<View
+		    android:layout_width="match_parent"
+		    android:layout_height="2dp"
+		    android:background="@android:color/darker_gray"/>
+	
+	<ScrollView     
+        android:layout_width="fill_parent" 
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true" >
+	
+      <ListView
+        android:id="@+id/listView"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" /> 
+		    
+		    </ScrollView>
+		    
+	    <ImageView
+             android:id="@+id/ivAddTag"
+             android:layout_width="80dp"
+             android:layout_height="80dp"
+             android:src="@drawable/add"
+             android:fillViewport="true" 
+             android:layout_gravity="center" />
+    
+</LinearLayout
+>

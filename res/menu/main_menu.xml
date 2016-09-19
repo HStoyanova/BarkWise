@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:id="@+id/news_feed"
+        android:title="News feed"
+    />
+    
+    <item 
+        android:id="@+id/pets"
+        android:title="Pets"
+    />
+    
+    <item 
+        android:id="@+id/gallery"
+        android:title="Gallery"
+    />
+    
+    <item 
+        android:id="@+id/reminders"
+        android:title="Reminders"
+    />
+    
+    <item 
+        android:id="@+id/vet_clinics"
+        android:title="Vet clinics"
+    />
+    
+    <item 
+        android:id="@+id/scan_chip"
+        android:title="Scan chip number"
+    />
+    
+    <item 
+        android:id="@+id/suggestions"
+        android:title="Suggestion"
+    />
+    
+    <item 
+        android:id="@+id/edit_profile"
+        android:title="Edit profile"
+    />
+    
+    <item 
+        android:id="@+id/my_places"
+        android:title="My places"
+    />
+    
+     <item 
+        android:id="@+id/change_pass"
+        android:title="Change password"
+    />
+    
+    <item 
+        android:id="@+id/logout"
+        android:title="Log out"
+    />
+    
+
+</menu>

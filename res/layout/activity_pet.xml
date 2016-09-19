@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp" 
+    android:background="@drawable/b23" >
+    
+    <ImageView
+    android:id="@+id/btnProfile"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:layout_gravity="center"
+	android:src="@drawable/dogicon"
+	android:fillViewport="true" />
+    
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Name: "
+        android:textStyle="bold|italic"/>
+    
+    	<TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""/>
+    
+        
+        <View
+	    android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:background="@android:color/darker_gray"/>
+        
+        
+        <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Breed: "
+        android:textStyle="bold|italic"/>
+    
+	    <TextView
+        android:id="@+id/tvBreed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""/>
+    
+        <View
+	    android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:background="@android:color/darker_gray"/>
+    
+        <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Owner: "
+        android:textStyle="bold|italic"/>
+    
+   		<TextView
+        android:id="@+id/tvOwner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""/>
+    
+        <View
+	    android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:background="@android:color/darker_gray"/>
+        
+        <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Date of birth: "
+        android:textStyle="bold|italic"/>
+    
+    	<TextView
+        android:id="@+id/tvDob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="-"/>
+    
+        <View
+	    android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:background="@android:color/darker_gray"/>
+        
+
+     	<TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Weight: "
+        android:textStyle="bold|italic"/>
+    
+   		<TextView
+        android:id="@+id/tvWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="-"/>
+    
+        <View
+	    android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:background="@android:color/darker_gray"/>
+      
+
+        <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Chip number: "
+        android:textStyle="bold|italic"/>
+    
+    	<TextView
+        android:id="@+id/tvChip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="-"/>
+
+   
+        <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/darker_gray"/>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="109dp"
+            android:orientation="horizontal"
+            android:padding="20dp" >
+
+            <ImageView
+                android:id="@+id/imageViewEdit"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="left"
+                android:layout_weight="0.12"
+                android:src="@drawable/edit" />
+
+            <ImageView
+                android:id="@+id/btnDelete"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_weight="0.22"
+                android:layout_gravity="right"
+                android:fillViewport="true"
+                android:src="@drawable/dell" />
+        </LinearLayout>
+        
+</LinearLayout>

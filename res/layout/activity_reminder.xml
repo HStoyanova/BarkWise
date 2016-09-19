@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="60dp"
+    android:background="@drawable/b23">
+    
+    
+    <ImageView
+    android:id="@+id/btnProfile"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_gravity="center"
+	android:src="@drawable/care"
+	android:fillViewport="true" />
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Reminder:"/>
+    
+    <TextView
+        android:id="@+id/tvReminderType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Not available."/>
+    
+        <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/darker_gray"/>
+    
+        <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Pet:"/>
+    
+    <TextView
+        android:id="@+id/tvPet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Not available."/>
+    
+        <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/darker_gray"/>  
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Date:"/>
+    
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Not available."/>
+    
+        <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/darker_gray"/>
+    
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time:"/>
+    
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Not available."/>
+    
+        <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/darker_gray"/>
+    
+        <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Note:"/>
+    
+    <TextView
+        android:id="@+id/tvNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Not available."/>
+    
+  	<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="20dp">
+ 		
+ 		<ImageView
+            android:id="@+id/btnDelete"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+			android:src="@drawable/dell"
+			android:fillViewport="true" />
+    
+ 		</LinearLayout>
+ 		
+</LinearLayout>

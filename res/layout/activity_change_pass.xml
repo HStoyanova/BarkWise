@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp" 
+    android:background="@drawable/b23">
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center" 
+    android:gravity="center">
+    
+    <EditText
+        android:id="@+id/txtOldPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Current password" 
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/txtNewPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="New password"
+        android:inputType="textPassword" />
+		
+	<EditText
+        android:id="@+id/txtConfirmPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Confirm password"
+        android:inputType="textPassword" />
+
+
+    <ImageView
+        android:id="@+id/ivSave"
+         android:layout_width="60dp"
+         android:layout_height="60dp"
+         android:layout_gravity="center"
+         android:gravity="center"
+         android:src="@drawable/save" />
+    
+    </LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" 
+	    android:padding="30dp"
+	    android:gravity="center"
+        android:background="@drawable/b23">
+
+     
+	    <TextView
+	        android:id="@+id/txtViewUserName"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:text="User name: "
+	        android:layout_gravity="left"
+            android:textStyle="bold|italic"/>
+	    
+	     <EditText
+	        android:id="@+id/txtUsername"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:layout_gravity="left"
+	        android:hint="Username" />
+	    
+	    
+	    <View
+	    android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:background="@android:color/darker_gray"/>
+	    
+	    <TextView
+	        android:id="@+id/txtViewEmail"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:text="Email:" 
+	        android:layout_gravity="left"
+            android:textStyle="bold|italic"/>
+	    
+	    <EditText
+	        android:id="@+id/txtEmail"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:hint="Valid Email" 
+	        android:layout_gravity="left"/>
+	    
+	     <View
+	    android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:background="@android:color/darker_gray"/>
+	
+	   
+		<RadioGroup
+		    android:id="@+id/radioGroupGender"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+		    android:padding="10dp">
+		    <RadioButton 
+		        android:id="@+id/radio_male"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Male"
+		        android:onClick="onRadioButtonClicked"
+                android:textStyle="bold|italic"/>
+		    <RadioButton 
+		        android:id="@+id/radio_female"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Female"
+		        android:onClick="onRadioButtonClicked"
+                android:textStyle="bold|italic"/>
+		</RadioGroup>
+		       
+	    <ImageView
+	        android:id="@+id/ivSave"
+	        android:layout_width="60dp"
+	        android:layout_height="60dp"
+	        android:layout_gravity="center" 
+	        android:src="@drawable/save"/>
+</LinearLayout>

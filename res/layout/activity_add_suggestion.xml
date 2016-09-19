@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/b23"
+    android:padding="30dp">
+    
+    
+	<ImageView
+	     android:id="@+id/imageViewPic"
+	     android:layout_width="80dp"
+	     android:layout_height="80dp"
+	     android:layout_gravity="center"
+	     android:layout_alignParentLeft="true"
+	     android:src="@drawable/sugg" />
+	
+	<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/darker_gray"/>
+	
+	 <TextView
+        android:id="@+id/tvDescr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Suggestion:"/>
+	
+	 <EditText
+	     android:id="@+id/etText"
+	     android:inputType="textMultiLine" 
+	     android:layout_gravity="left"
+   		 android:lines="8" 
+	     android:minLines="6" 
+	     android:gravity="top|left" 
+	     android:maxLines="10" 
+	     android:layout_height="wrap_content" 
+	     android:layout_width="fill_parent" 
+	     android:scrollbars="vertical" />
+
+	<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/darker_gray"/>
+	         
+	             <ImageView
+                android:id="@+id/ivSave"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/save" />
+	 
+</LinearLayout>

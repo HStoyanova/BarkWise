@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" 
+		android:padding="20dp"
+	    android:background="@drawable/b23">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Enter chip number to scan:"
+			android:textStyle="italic"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+		        <EditText
+	            android:id="@+id/editTxtChipNumber"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="15"
+	            android:layout_gravity="center" >
+	            <requestFocus />
+	            </EditText>
+	            
+	           	<ImageView
+	            android:id="@+id/ivCheckInDB"
+	            android:layout_width="50dp"
+	            android:layout_height="50dp"
+	            android:layout_gravity="center"
+		        android:src="@drawable/ss" />
+
+           <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:orientation="horizontal"
+	        android:padding="5dp" >
+        
+               <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+				android:textStyle="italic"
+                android:text="Upload image or take a picture" />
+               
+		        <LinearLayout
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:gravity="center"
+			        android:orientation="horizontal"
+			        android:padding="10dp" >
+
+		       			<ImageView
+		                android:id="@+id/ivGallery"
+		                android:layout_width="50dp"
+		                android:layout_height="50dp"
+		                android:layout_gravity="left"
+		                android:gravity="center"
+		                android:src="@drawable/gallery" />
+	
+		         		 <ImageView
+		                android:id="@+id/ivCamera"
+		                android:layout_width="50dp"
+		                android:layout_height="50dp"
+		                android:layout_gravity="right"
+		                android:gravity="center"
+		                android:src="@drawable/came" />
+	       		</LinearLayout>
+          </LinearLayout>
+        
+		 <ScrollView     
+        android:layout_width="fill_parent" 
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true" >
+		
+           <ImageView
+                android:id="@+id/ImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+          
+		  </ScrollView>
+		  
+	        	<Button
+	            android:id="@+id/btnScanChip"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:onClick="onClickScan"
+	            android:text="Scan image"
+      			android:textStyle="italic"
+	            android:layout_gravity="center"/>
+
+</LinearLayout>
